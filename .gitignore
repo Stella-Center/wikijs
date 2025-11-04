@@ -47,3 +47,8 @@ test-results/
 
 # Localization Resources
 /server/locales/**/*.yml
+
+test/
+infra/.terraform*
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
