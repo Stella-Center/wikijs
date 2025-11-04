@@ -10,6 +10,7 @@ variable "environment" {
 
 variable "namespace" {
   type        = string
+  description = "Name of the namespace to create label names and tags"
 }
 
 variable "region" {
